@@ -1,0 +1,10 @@
+# https://promptimize.co/robots.txt
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://promptimize.co/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1 

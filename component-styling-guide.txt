@@ -1,0 +1,115 @@
+COMPONENT-SPECIFIC STYLING
+
+HERO
+----
+Background: #ffffff
+Text: #000000
+CTA Button: 
+- Background: #0070f3 (Primary)
+- Text: #ffffff
+Layout:
+- Full-width hero section
+- Centered content
+- Large heading with emphasized text
+- Subtitle in secondary color
+- CTA button prominent
+
+FEATURES
+--------
+Background: #f5f5f5 (Secondary)
+Text: #000000
+Cards/Icons:
+- Icon color: #0070f3 (Primary)
+- Card background: #ffffff
+Layout:
+- Grid system (likely 3 or 4 columns on desktop)
+- Card-based design
+- Icon + Heading + Description pattern
+
+HOW IT WORKS
+-----------
+Background: #ffffff
+Text: #000000
+Steps:
+- Number indicators: #0070f3 (Primary)
+- Step cards: Light gray background (#f5f5f5)
+Layout:
+- Vertical or horizontal timeline
+- Numbered steps
+- Alternating content alignment
+
+USE CASES
+---------
+Background: #f5f5f5 (Secondary)
+Cards:
+- Background: #ffffff
+- Borders: Light gray or subtle shadow
+- Accent: #0070f3 for interactive elements
+Layout:
+- Grid or carousel layout
+- Case study cards
+- Image + Text combination
+
+TESTIMONIALS
+-----------
+Background: #ffffff
+Quote marks: #0070f3 (Primary)
+Author info: Secondary text color
+Layout:
+- Card-based testimonials
+- Avatar + Quote + Author info
+- Possible carousel/slider
+
+PRICING
+-------
+Background: #f5f5f5 (Secondary)
+Cards:
+- Background: #ffffff
+- Highlight plan: Light primary color background
+- CTA buttons: #0070f3 (Primary)
+Layout:
+- 3-4 pricing tiers
+- Feature list
+- Prominent CTA buttons
+
+CTA (Call to Action)
+-------------------
+Background: #0070f3 (Primary)
+Text: #ffffff
+Button:
+- Background: #ffffff
+- Text: #0070f3
+Layout:
+- Full-width section
+- Centered content
+- Large heading
+- Prominent button
+
+COMMON PATTERNS
+--------------
+Section Padding:
+- Vertical: py-16 md:py-24
+- Horizontal: px-4 md:px-6 lg:px-8
+
+Content Width:
+- max-w-7xl mx-auto
+
+Card Patterns:
+- rounded-lg
+- shadow-sm
+- p-6
+
+Button Styles:
+- Primary: bg-primary text-white
+- Secondary: bg-secondary text-black
+- Hover states with opacity changes
+
+Typography Scale:
+- Headings: text-4xl md:text-5xl lg:text-6xl
+- Subheadings: text-xl md:text-2xl
+- Body: text-base
+- Small text: text-sm
+
+Spacing Between Components:
+- mb-16 md:mb-24 (for major sections)
+- gap-6 md:gap-8 (for grid items) 

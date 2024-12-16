@@ -1,0 +1,87 @@
+SITE STYLING GUIDE
+
+COLORS
+------
+Background: #ffffff (Pure white)
+Foreground: #000000 (Pure black)
+
+Primary:
+- Base: #0070f3 (Bright blue)
+- Text on primary: #ffffff
+
+Secondary: 
+- Base: #f5f5f5 (Light gray)
+- Text on secondary: #000000
+
+TYPOGRAPHY
+----------
+Font Family: Inter
+- Implementation: Next.js optimized fonts
+- Variable font support enabled
+- Latin subset
+- Applied via CSS variable: --font-inter
+
+LAYOUT STRUCTURE
+---------------
+Root:
+- Full height minimum (min-h-screen)
+- Flex column layout
+- White background
+
+Component Hierarchy:
+1. Hero Section
+2. Features Grid
+3. How It Works
+4. Use Cases
+5. Testimonials
+6. Pricing Tables
+7. Call to Action
+
+SPACING & CONTAINERS
+-------------------
+- Components use full width
+- Content likely contained in max-width wrapper
+- Vertical spacing between sections (TBD based on design)
+
+RESPONSIVE DESIGN
+----------------
+- Mobile-first approach
+- Flexbox-based layouts
+- Tailwind breakpoints:
+  sm: 640px
+  md: 768px
+  lg: 1024px
+  xl: 1280px
+  2xl: 1536px
+
+FILE STRUCTURE
+-------------
+/src
+  /app
+    layout.tsx (Root layout with font setup)
+    page.tsx (Main page component)
+    globals.css (Global styles)
+  /components
+    Hero.tsx
+    Features.tsx
+    HowItWorks.tsx
+    UseCases.tsx
+    Testimonials.tsx
+    Pricing.tsx
+    CTA.tsx
+
+BUILD CONFIGURATION
+------------------
+- Next.js 13+ with App Router
+- TypeScript enabled
+- Tailwind CSS for styling
+- ESLint for code quality
+- Absolute imports configured (@/ alias)
+
+TAILWIND CONFIGURATION
+---------------------
+Content paths: './src/**/*.{js,ts,jsx,tsx,mdx}'
+Extended theme:
+- Custom colors
+- Font family configuration
+No additional plugins 
